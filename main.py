@@ -26,7 +26,7 @@ def csv_clean(input_filename, header_names, output_filepath):
     else:
         print("Warning: 'amt' column not found for sum calculation.")
 
-    #print(df.head())
+
 
     
 
@@ -35,12 +35,7 @@ def csv_clean(input_filename, header_names, output_filepath):
 input_file = "unclean_data.csv"
 output_file = "clean.csv"
 
-# 3. Call the processing function
-#process_csv(input_file, output_file)
+
 new_headers = ['slno','acq','iss','amt','date_of_settlement']
 csv_clean(input_file, new_headers, output_file)
 
-# To verify the output, you can read it back:
-# df_processed = pd.read_csv(output_file)
-# print("\nProcessed CSV content:")
-# print(df_processed)

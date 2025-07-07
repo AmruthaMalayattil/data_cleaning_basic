@@ -18,4 +18,4 @@ Add Headers: Insert the following headers as the first row in the clean.csv file
 Format as Proper CSV: Ensure all fields are properly delimited by commas. This includes trimming any leading or trailing whitespace from the data fields and removing any extraneous characters that would prevent it from being a standard CSV file.
 
 Part 2: Analyze the Cleaned Data
-Once clean.csv is ready, read its contents and calculate the total amount (amt) for all rows where the iss (issuer) field is "RELM". 
+Once clean.csv is ready, read its contents and calculate the total amount (amt) for all rows where the iss (issuer) field is "RELM".  
